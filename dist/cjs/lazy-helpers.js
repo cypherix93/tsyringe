@@ -14,7 +14,8 @@ class DelayedConstructor {
             "set",
             "deleteProperty",
             "apply",
-            "construct"
+            "construct",
+            "ownKeys"
         ];
     }
     createProxy(createObject) {

@@ -12,7 +12,8 @@ var DelayedConstructor = (function () {
             "set",
             "deleteProperty",
             "apply",
-            "construct"
+            "construct",
+            "ownKeys"
         ];
     }
     DelayedConstructor.prototype.createProxy = function (createObject) {
